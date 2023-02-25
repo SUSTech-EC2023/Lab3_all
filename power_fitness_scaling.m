@@ -5,5 +5,5 @@ end
 mu = length(fitness_list);
 power_fitness_list = nan(mu,1);
 for i = 1:mu
-    power_fitness_list(i) = (power(fitness_list(i, pow));
+    power_fitness_list(i) = power(fitness_list(i, pow));
 end
